@@ -16,6 +16,7 @@
 		C35933972023D71C00D85500 /* BusinessMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35933962023D71C00D85500 /* BusinessMapViewModel.swift */; };
 		C38756A0E9013F2F1E6253E0 /* Pods_CoffeeQuest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C9278042C96775D875EE9F /* Pods_CoffeeQuest.framework */; };
 		D9DB83E621C95F7A0036BCA3 /* AnnotationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DB83E521C95F7A0036BCA3 /* AnnotationFactory.swift */; };
+		D9DB83E921C961C20036BCA3 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DB83E821C961C20036BCA3 /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C35933962023D71C00D85500 /* BusinessMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMapViewModel.swift; sourceTree = "<group>"; };
 		C7C9278042C96775D875EE9F /* Pods_CoffeeQuest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeeQuest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DB83E521C95F7A0036BCA3 /* AnnotationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationFactory.swift; sourceTree = "<group>"; };
+		D9DB83E821C961C20036BCA3 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		C35933832023BF5700D85500 /* CoffeeQuest */ = {
 			isa = PBXGroup;
 			children = (
+				D9DB83E721C961B10036BCA3 /* Models */,
 				D9DB83E421C95F550036BCA3 /* Factories */,
 				4252EAA42023DFE500847430 /* AppDelegate */,
 				4252EAA52023DFE800847430 /* Controllers */,
@@ -145,6 +148,14 @@
 				D9DB83E521C95F7A0036BCA3 /* AnnotationFactory.swift */,
 			);
 			path = Factories;
+			sourceTree = "<group>";
+		};
+		D9DB83E721C961B10036BCA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB83E821C961C20036BCA3 /* Protocols.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +291,7 @@
 				C35933972023D71C00D85500 /* BusinessMapViewModel.swift in Sources */,
 				4252EAAA2023E05900847430 /* APIKeys.swift in Sources */,
 				D9DB83E621C95F7A0036BCA3 /* AnnotationFactory.swift in Sources */,
+				D9DB83E921C961C20036BCA3 /* Protocols.swift in Sources */,
 				C35933872023BF5700D85500 /* ViewController.swift in Sources */,
 				C35933852023BF5700D85500 /* AppDelegate.swift in Sources */,
 			);
